@@ -1,14 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Web CSS Exercises</title>
+    <meta charset="UTF-8">
+    <title>My Web CSS Exercises</title>
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 80px auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2em;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 6px;
+            display: inline-block;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #388e3c;
+        }
+    </style>
 </head>
 <body>
-  <h1>My Web Exercises</h1>
-  <ul>
-    <li><a href="exercises/exercise1/index.html">Exercise 1</a></li>
-    <li><a href="exercises/exercise2/index.html">Exercise 2</a></li>
-    <li><a href="exercises/exercise3/index.html">Exercise 3</a></li>
-  </ul>
+    <div class="container">
+        <h1>My Web Exercises</h1>
+        <ul>
+            <li><a href="exercises/exercise1/index.html">Exercise 1</a></li>
+            <li><a href="exercises/exercise2/index.html">Exercise 2</a></li>
+            <li><a href="exercises/exercise3/index.html">Exercise 3</a></li>
+        </ul>
+    </div>
 </body>
 </html>
