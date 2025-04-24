@@ -1,4 +1,16 @@
-p {
+body {
     font-family: Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 40px;
+    text-align: center;
+}
+
+h1 {
     font-size: 14pt;
+    color: #333;
 }
